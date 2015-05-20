@@ -1,4 +1,4 @@
-FROM zooniverse/nginx
+FROM zooniverse/nginx:stable
 
 RUN mkdir -p /etc/nginx-sites/ && touch /etc/nginx-deny.conf
 
