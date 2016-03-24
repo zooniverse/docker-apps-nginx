@@ -2,4 +2,4 @@
 
 python3 gen-cf-conf.py
 
-exec /usr/bin/supervisord
+exec /entrypoint.sh
