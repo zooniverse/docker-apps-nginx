@@ -1,4 +1,4 @@
-FROM zooniverse/nginx
+FROM zooniverse/nginx:xenial
 
 RUN apt-get update && apt-get install -y python3 python3-requests
 
